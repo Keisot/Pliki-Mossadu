@@ -1,0 +1,24 @@
+state = {
+	id = 1084
+	name = "STATE_1084"
+	manpower = 112456
+	state_category = rural
+
+	history = {
+
+		owner = LEB
+		add_core_of = LEB
+
+
+		victory_points = {
+			13419 2
+			}
+	}
+	
+
+	provinces = {
+		13419
+	}
+}
+
+

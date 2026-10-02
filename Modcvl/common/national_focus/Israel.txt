@@ -1,0 +1,38 @@
+focus_tree = {
+    id = israel_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = ISR
+        }
+    }
+
+    # basic focus tree metadata
+    continuous_focus_position = { x = 20 y = 1000 }
+
+    focus = {
+        id = ISR_Economic
+        icon = GFX_focus_SWE_italian_destroyers
+        x = 10
+        y = 0
+        cost = 10
+        available = { tag = ISR }
+
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                    }
+                }
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+    }
+}

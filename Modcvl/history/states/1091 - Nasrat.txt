@@ -1,0 +1,24 @@
+state = {
+	id = 1091
+	name = "STATE_1091"
+	manpower = 112456
+	state_category = rural
+
+	history = {
+
+		owner = ISR
+		add_core_of = ISR
+
+
+
+		victory_points = {
+				1065 2
+			}
+	}
+	
+
+	provinces = {
+		1065
+	}
+}
+

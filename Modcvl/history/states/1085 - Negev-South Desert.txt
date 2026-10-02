@@ -1,0 +1,23 @@
+state = {
+	id = 1085
+	name = "STATE_1085"
+	manpower = 112456
+	state_category = rural
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+
+
+		victory_points = {
+			13415 2
+			}
+	}
+	
+
+	provinces = {
+		13415
+	}
+}
+

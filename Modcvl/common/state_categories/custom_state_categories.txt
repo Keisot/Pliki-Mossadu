@@ -1,0 +1,38 @@
+state_categories = {
+	wasteland = {
+		local_building_slots = 0
+	}
+	enclave = {
+		local_building_slots = 0
+	}
+	tiny_island = {
+		local_building_slots = 1
+	}
+	small_island = {
+		local_building_slots = 2
+	}
+	pastoral = {
+		local_building_slots = 1
+	}
+	rural = {
+		local_building_slots = 2
+	}
+	town = {
+		local_building_slots = 4
+	}
+	large_town = {
+		local_building_slots = 6
+	}
+	city = {
+		local_building_slots = 8
+	}
+	large_city = {
+		local_building_slots = 10
+	}
+	metropolis = {
+		local_building_slots = 12
+	}
+	megalopolis = {
+		local_building_slots = 14
+	}
+}
